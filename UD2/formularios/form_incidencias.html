@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Formulario
+de incidencia" content="width=device-width, initial-scale=1.0">
+    <title>Formulario
+de incidencia</title>
+</head>
+<body>
+    <form method="get" action="">
+        <fieldset>
+            <legend>Datos del usuario</legend>
+            <label for="Usuario">Usuario</label>
+            <input type="text" id="Usuario" name="Usuario" placeholder="Nombre y Apellidos "><br>
+            <input type="radio" id="Profesor" name="funcion">
+            <label for="Profesor">Profesor</label><br>
+            <input type="radio" id="Alumno" name="funcion">
+            <label for="Alumno">Alumno</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Lugar de la incidencia</legend>
+            <input type="radio" name="area" id="Departamento">
+            <label for="Departamento">Departamento</label><br>
+            <input type="radio" name="area" id="Aula">
+            <label for="Aula">Aula</label><br>
+            <input type="radio" name="area" id="Equipo" checked>
+            <label for="Equipo">Equipo</label><br>
+            <label for="Lugar">Nombre</label>
+            <input type="text" id="Lugar" name="Lugar" placeholder="Nom de equipo, depa o aula">
+        </fieldset>
+        <fieldset>
+            <legend>Información sobre la incidencia</legend>
+            <label for="incidencia">Descripción de la incidencia</label>
+            <textarea name="incidencia" id="incidencia" placeholder="Describe aqui tu problema"></textarea><br>
+            Nivel de urgencia <br>
+            <input type="radio" id="Urgencia" name="Alto">
+            <label for="Alto">Alto</label><br>
+            <input type="radio" id="Urgencia" name="Medio">
+            <label for="Medio">Medio</label><br>
+            <input type="radio" id="Urgencia" name="Bajo">
+            <label for="Bajo">Bajo</label><br>
+            <label for="correo">Deseo recibir un mensaje de correo al resolverse la
+incidencia.</label>
+            <input type="checkbox" id="correo" name="correo">
+        </fieldset>
+        <input type="submit" value="Entrar">
+        <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>
