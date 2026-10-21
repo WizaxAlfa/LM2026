@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "tablas19"
+        "tablas19",
+        "form_validacion"
     ]
 }
