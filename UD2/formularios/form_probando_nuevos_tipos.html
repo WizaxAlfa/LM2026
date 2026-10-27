@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Formularios" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form method="get" action="validar.php">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="Telefono">Telefono</label>
+            <input type="text" id="Telefono" name="Telefono" placeholder="9 numeros" maxlength="9"><br>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="mail" placeholder="El formato correcto es nombre+@+servidor de correo" maxlength="50" autocomplete="on">
+        </fieldset>
+        <fieldset>
+            <legend>Valores Numericos</legend>
+            <label for="Npersonas">Número de personas</label>
+            <input type="number" id="Npersonas" name="Npersonas" min="1" max="20" step="1" value="1">
+        </fieldset>
+        <fieldset>
+            <legend>Información sobre la incidencia</legend>
+        </fieldset>
+        <input type="submit" value="Entrar">
+        <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>
