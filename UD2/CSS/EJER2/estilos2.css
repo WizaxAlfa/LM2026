@@ -1,0 +1,18 @@
+*{
+    background-color: pink;
+    text-align: center;
+}
+div{
+    color: blue;
+}
+
+div.segundo p{
+    background: silver;
+}
+div.tercero p{
+    text-align: right;
+    font-size: 20px;
+}
+div.cuarto p{
+    background: silver;
+}
