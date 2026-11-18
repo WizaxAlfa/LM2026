@@ -1,6 +1,25 @@
+*{
+    font-style: Verdana;
+}
 h1{
     color: blue;
     font-size: 20px;
-    
-    align-items: center;
+    text-align: center;
+}
+li{
+    font-size: 15px;
+}
+a{
+    color: #C00;
+}
+a:hover{
+    color: #FFF;
+    background-color: #C00;
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: blue;
 }
